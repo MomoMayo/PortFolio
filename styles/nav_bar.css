@@ -1,0 +1,16 @@
+.nav-bar {
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    flex-direction: row;
+}
+
+.nav-left-side {
+    background-color: aquamarine;
+    width: fit-content;
+}
+
+.nav-right-side {
+    background-color: rebeccapurple;
+    flex: 1;
+}
