@@ -2,15 +2,29 @@
     display: flex;
     margin-top: 0px;
     margin-bottom: 0px;
+    height: 55px;
     flex-direction: row;
 }
 
 .nav-left-side {
-    background-color: aquamarine;
     width: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+.thoughtspot_logo {
+    width: 60px;
+}
+
+.ts-text {
+    font-weight: 400;
+    font-size: 30px;
 }
 
 .nav-right-side {
-    background-color: rebeccapurple;
+    margin-left: 200px;
     flex: 1;
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: flex-end;
 }
