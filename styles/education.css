@@ -1,7 +1,48 @@
 .education {
     margin-left: 10px;
     margin-right: 10px;
-    padding: 10px;
     background-color: white;
     border-radius: 5px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.edu-logo {
+    height: 70px;
+    width: 65px;
+}
+
+.edu-item {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    height: 70px;
+    align-items: start;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.edu-info{
+    margin-left: 20px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    row-gap: 5px;
+}
+
+.edu-name {
+    font-weight: 600;
+}
+
+.title {
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-right: 20px;
+    font-size: 26px;
+    font-weight: 500;
 }

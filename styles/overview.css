@@ -2,6 +2,8 @@
     background-color: white;
     margin: 10px;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
 }
 
 .banner {
@@ -10,12 +12,14 @@
     height: 250px;
     background-image: url("../resources/gradient.jpeg");
 }
-
+.user-div{
+    padding-top:200px;
+}
 .user-photo {
     width: 150px;
     height: 150px;
-    position: fixed;
-    top: 240px;
+    margin-top: 170px;
+    margin-left: 20px;
     border: 5px solid white;
     border-radius: 500px;
     left: 30px;
@@ -27,6 +31,10 @@
     font-size: x-large;
     font-weight: 400;
     margin-bottom: 10px;
+}
+
+.username > span {
+    font-size: 24px;
 }
 
 .address {
