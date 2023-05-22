@@ -3,7 +3,7 @@
     margin-right: 10px;
     background-color: white;
     border-radius: 5px;
-    padding-bottom: 20px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
 }
@@ -14,7 +14,6 @@
 }
 
 .edu-item {
-    margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 10px;
     margin-top: 20px;
@@ -36,12 +35,11 @@
 
 .edu-name {
     font-weight: 600;
+    margin-bottom: 5px;
 }
 
 .title {
-    margin-left: 20px;
-    margin-top: 15px;
-    margin-right: 20px;
+    margin-left: 1px;
     font-size: 26px;
     font-weight: 500;
 }
