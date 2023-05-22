@@ -8,10 +8,10 @@
     margin-top: 20px;
     flex: 1;
     min-width: 400px;
-    background-color: rgb(247, 247, 247);
+    background-color: rgb(250, 250, 250);
     border-radius: 22px;
     display: flex;
-    border: 1px solid rgb(231, 231, 231);
+    border: 1px solid rgb(246, 246, 246);
     flex-direction: column;
 }
 
