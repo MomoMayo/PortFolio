@@ -4,6 +4,8 @@
     height: 1000px;
     margin: 0px;
     margin-top: 65px;
+    display: flex;
+    flex-direction: column;
     padding-bottom: 20px;
 }
 
@@ -37,8 +39,8 @@
     margin: 0px 20px 0px 20px;
     padding: 20px;
     background-color: white;
+    width: 100%;
     border-radius: 5px;
-    width: fit-content;
 }
 
 .main-section-3 {
@@ -48,6 +50,7 @@
     border-radius: 5px;
     display: flex;
     flex: 1;
+    width: 100%;
 }
 
 .html {
