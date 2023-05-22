@@ -47,6 +47,7 @@
     background-color: white;
     border-radius: 5px;
     display: flex;
+    flex: 1;
 }
 
 .html {
